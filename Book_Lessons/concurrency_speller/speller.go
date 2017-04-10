@@ -2,7 +2,6 @@ package main
 
 import (
 	"./function"
-
 	"sync"
 	"time"
 )
@@ -16,25 +15,31 @@ var (
 const(
 	dictionary_path = "D:\\dictionary.txt"
 	text_path = "D:\\in.txt"
-
 )
 
 func main() {
-
+	n := make(chan bool)
 	w := sync.WaitGroup{}
-	w.Add(2)
+	w.Add(3)
+
 	go func(w *sync.WaitGroup) {
 		function.ReadText(dictionary_path, &dictionary)
+		w.Done()
+		n<-true
+	}(&w)
+
+	go func(w *sync.WaitGroup) {
 		function.ReadText(text_path, &text)
 		w.Done()
 	}(&w)
 
+	time.Sleep(1*time.Second)
 	go func(w *sync.WaitGroup) {
+		<-n
 		function.Speller(dictionary, text,&misspell_count)
 		w.Done()
 	}(&w)
 
-	time.Sleep(2*time.Second)
 	defer function.Report(&misspell_count,text, dictionary)
 	w.Wait()
 }

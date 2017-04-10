@@ -47,7 +47,7 @@ func Speller(dic, text []string, misspell_count *int) {
 
 	for i := 0; i < len(text); i++ {
 
-		if IsCorrectWord(text[i]) {
+		if IsCorrectWord(text[i]){
 			*misspell_count++
 		}
 
@@ -56,8 +56,8 @@ func Speller(dic, text []string, misspell_count *int) {
 
 
 
-func IsCorrectWord(word string) bool{
-	fmt.Println("IsCorrect")
+func IsCorrectWord(word string) bool {
+
 	temp := strings.ToLower(word)
 	temp = Trimmer(temp)
 	if _, err:= strconv.Atoi(temp); err== nil {
