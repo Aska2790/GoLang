@@ -2,72 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb9b01a-385f-48ae-b8e9-dd50933c58b3" name="Default" comment="1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/godoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/.idea/Book_Lessons.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/.idea/libraries/Go_SDK.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/Chapter_1/stack/stack.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/Chapter_1/test_stack.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/Chapter_2/thread_in_go.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/CheckSpelling/check_text.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/CheckSpelling/functions/functions.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/concurrency_speller/function/function.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/concurrency_speller/speller.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/converter/temperature.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/file_read.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Book_Lessons/test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Chapter_1/.idea/Chapter_1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Chapter_1/.idea/libraries/Go_SDK.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Chapter_1/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Chapter_1/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Chapter_1/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/Les.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/TestPackage/.idea/TestPackage.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/TestPackage/.idea/libraries/Go_SDK.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/TestPackage/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/TestPackage/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/TestPackage/src/main/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/module.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/te/.idea/goLibraries.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/te/.idea/libraries/Go_SDK.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/te/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/te/.idea/te.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Don`t pushing/te/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/.idea/Book_Lessons.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/.idea/libraries/Go_SDK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/Chapter_1/stack/stack.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/Chapter_1/test_stack.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/Chapter_2/thread_in_go.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/CheckSpelling/check_text.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/CheckSpelling/functions/functions.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/concurrency_speller/function/function.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/concurrency_speller/speller.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/converter/temperature.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/file_read.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Book_Lessons/test.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter_1/.idea/Chapter_1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter_1/.idea/libraries/Go_SDK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter_1/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter_1/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter_1/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Les.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestPackage/.idea/TestPackage.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestPackage/.idea/libraries/Go_SDK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestPackage/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestPackage/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestPackage/src/main/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/godoc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/te/.idea/goLibraries.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/te/.idea/libraries/Go_SDK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/te/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/te/.idea/te.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/te/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <ignored path=".idea/" />
+    <ignored path="Don`t pushing/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,28 +129,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Don`t pushing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="te" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoLangLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoLangLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Ciphering" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -224,9 +140,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Don`t pushing" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
