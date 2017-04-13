@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./function"
+	"./speller_func"
 	"sync"
 	"time"
 )
@@ -23,23 +23,23 @@ func main() {
 	w.Add(3)
 
 	go func(w *sync.WaitGroup) {
-		function.ReadText(dictionary_path, &dictionary)
+		speller_func.ReadText(dictionary_path, &dictionary)
 		w.Done()
 		n <- true
 	}(&w)
 
 	go func(w *sync.WaitGroup) {
-		function.ReadText(text_path, &text)
+		speller_func.ReadText(text_path, &text)
 		w.Done()
 	}(&w)
 
 	time.Sleep(1 * time.Second)
 	go func(w *sync.WaitGroup) {
 		<-n
-		function.Speller(dictionary, text, &misspell_count)
+		speller_func.Speller(dictionary, text, &misspell_count)
 		w.Done()
 	}(&w)
 
-	defer function.Report(&misspell_count, text, dictionary)
+	defer speller_func.Report(&misspell_count, text, dictionary)
 	w.Wait()
 }

@@ -1,4 +1,4 @@
-package functions
+package speller_func
 
 import (
 	"bufio"
@@ -13,8 +13,7 @@ import (
 var dictionary = make([]string, 0)
 
 // read text from file
-func ReadText(path string) []string {
-	var res []string
+func ReadText(path string, buffer *[]string) {
 
 	file, err := os.Open(path)
 	if err != nil {
@@ -36,42 +35,42 @@ func ReadText(path string) []string {
 	for i := range buf {
 		dic := strings.Fields(buf[i])
 		for j := range dic {
-			res = append(res, dic[j])
+			*buffer = append(*buffer, dic[j])
 		}
 	}
-	return res
 }
 
-func Speller(dic, text []string) int {
-	var misspell_count int = 0
+func Speller(dic, text []string, misspell_count *int) {
 	dictionary = dic
 
 	for i := 0; i < len(text); i++ {
+
 		if IsCorrectWord(text[i]) {
-			fmt.Println("misspell: ", text[i])
-			misspell_count++
+			*misspell_count++
 		}
+
 	}
-	return misspell_count
 }
 
 func IsCorrectWord(word string) bool {
+
 	temp := strings.ToLower(word)
 	temp = Trimmer(temp)
-	if _, err := strconv.Atoi(temp); err != nil {
-		for i := 0; i < len(dictionary); i++ {
-			if strings.Compare(dictionary[i], temp) == 0 {
-				return false
-			}
-		}
-		return true
+	if _, err := strconv.Atoi(temp); err == nil {
+		return false
 	}
-	return false
+
+	for i := 0; i < len(dictionary); i++ {
+		if strings.Compare(dictionary[i], temp) == 0 {
+			return false
+		}
+	}
+	return true
 }
 
-func Report(misspell_count int, text, dictionary []string) {
+func Report(misspell_count *int, text, dictionary []string) {
 	fmt.Println("Word count in Text : ", len(text))
-	fmt.Println("Word Misspelled :", misspell_count)
+	fmt.Println("Word Misspelled :", *misspell_count)
 	fmt.Println("Word count in Dictionary :", len(dictionary))
 }
 

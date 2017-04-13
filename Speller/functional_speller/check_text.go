@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./functions"
+	"./speller_func"
 )
 
 const (
@@ -10,8 +10,8 @@ const (
 )
 
 func main() {
-	dictionary := functions.ReadText(dictionary_path)
-	text := functions.ReadText(text_path)
-	count := functions.Speller(dictionary, text)
-	functions.Report(count, text, dictionary)
+	dictionary := speller_func.ReadText(dictionary_path)
+	text := speller_func.ReadText(text_path)
+	count := speller_func.Speller(dictionary, text)
+	speller_func.Report(count, text, dictionary)
 }
