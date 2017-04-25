@@ -4,24 +4,20 @@
 автор: Арслан Аннаев
 */
 
-
 package main
 
 import (
 	"bufio"
-	"os"
 	"fmt"
+	"os"
 	"strings"
 )
-
-
 
 func main() {
 	name := GetName("Введите полное имя : ")
 	init := Initials(name)
 	fmt.Println(init)
 }
-
 
 // Ввод ФИО
 func GetName(text string) string {
@@ -34,20 +30,19 @@ func GetName(text string) string {
 	return in.Text()
 }
 
-
 // обработка строки
-func Initials (name string ) string {
+func Initials(name string) string {
 	var word string
 
-	if strings.HasSuffix(name, "-" ){				// заменять если имя составное и между стоит тире
+	if strings.HasSuffix(name, "-") { // заменять если имя составное и между стоит тире
 		strings.Replace(name, "-", " ", len(name))
 	}
 
-	str := strings.Fields(name)					// разбивка на отдельные слова
+	str := strings.Fields(name) // разбивка на отдельные слова
 
-	for i :=0; i < len(str); i++ {					// пройтисьм по словам взять перввй символ
+	for i := 0; i < len(str); i++ { // пройтисьм по словам взять перввй символ
 		k := string(str[i])
-		word += strings.ToUpper(string(k[0]))+"."		// перевести вверхний регистр и сконкатенировать
+		word += strings.ToUpper(string(k[0])) + "." // перевести вверхний регистр и сконкатенировать
 	}
 	return word
 }

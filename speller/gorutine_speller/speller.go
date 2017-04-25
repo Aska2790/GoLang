@@ -36,7 +36,7 @@ func main() {
 	time.Sleep(1 * time.Second)
 	go func(w *sync.WaitGroup) {
 		<-n
-		speller_func.Speller(dictionary, text, &misspell_count)
+		speller_funcpa.Speller(dictionary, text, &misspell_count)
 		w.Done()
 	}(&w)
 
